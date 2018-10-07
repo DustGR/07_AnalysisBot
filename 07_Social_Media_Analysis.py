@@ -1,6 +1,7 @@
 # Dependencies
 import tweepy
 import sys
+import os
 import datetime
 import time
 import matplotlib.pyplot as plt
@@ -11,7 +12,10 @@ import pandas as pd
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 analyzer = SentimentIntensityAnalyzer()
 # Twitter API Keys
-from config import twt_cmr_ak, twt_cmr_ak_s, twt_acc_tkn, twt_acc_tkn_s
+twt_cmr_ak =  os.environ.get("twt_cmr_ak")
+twt_cmr_ak_s =   os.environ.get("twt_cmr_ak_s")
+twt_acc_tkn =  os.environ.get("twt_acc_tkn")
+twt_acc_tkn_s = os.environ.get("twt_acc_tkn_s")
 
 
 # Setup Tweepy API Authentication

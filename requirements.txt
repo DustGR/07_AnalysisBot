@@ -1,2 +1,5 @@
 tweepy==3.6.0
-pandas==0.22.0matplotlib==2.2.2numpy==1.14.3
+
+pandas==0.22.0
+matplotlib==2.2.2
+numpy==1.14.3

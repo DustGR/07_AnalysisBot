@@ -1,1 +1,1 @@
-worker: 07_Social_Media_Analysis.py
+web: 07_Social_Media_Analysis.py
